@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(20, 20, 18);
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav{
+    height: 100px;
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(20, 20, 18);
+}
+.nav__list{
+    display: flex;
+    flex-direction: row;
+}
+.nav__list_link{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+    background: goldenrod;
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    background: goldenrod;
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.intro {
+    background: #1f2020;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.intro__content {
+    background: #000;
+    width: 1200px;
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.case {
+    background: #1e2020;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.case__title {
+    color: orange;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 10px 10px;
+    background: #fff;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.case__undertitle {
+    color: goldenrod;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px;
+    background: #1f2020;
+    width: 500px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #1e2020;
+}
+
+.answer{
+    display: none;
+}
+.answer__content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #1e2020;
+    width: 450px;
+    text-align: center;
+}
+
+.card {
+    width: 95px;
+    height: 95px;
+    background: #000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case__info {
+    margin-bottom: 20px;
+}
+
+.card__img1,
+.card__img2,
+.card__img3,
+.card__img4,
+.card__img5,
+.card__img6,
+.card__img7,
+.card__img8,
+.card__img9,
+.card__img10,
+.card__img11,
+.card__img12,
+.card__img13,
+.card__img14,
+.card__img15,
+.card__img16 {
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+}
+
+.btns {
+    margin-top: 50px;
+}
+
+.btn1,
+.btn2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    background: goldenrod;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.info {
+    width: 400px;
+    background: #1e2020;
+    border-radius: 10px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+
+.info__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.cash {
+    color: #1f2020;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.cupons {
+    color: #1f2020;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.cashin {
+    color: #1f2020;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.add {
+    text-align: center;
+}
+
+.link {
+    font-size: 20px;
+    color: palevioletred;
+    font-family: serif;
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 400px;
+    height: 300px;
+    background: #1f2020;
+}
+
+.profile__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__img {
+    width: 150px;
+    height: 150px;
+    background: #1e2020;
+    object-fit: cover;
+}
+
+.profile__title {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.profile__text {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.result {
+    width: 100%;
+    height: 100vh;
+    background: #1f2020;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.result__title{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+.icon{
+    color: #fff;
+    font-size: 40px;
+    background: #1f2020;
+}
+
+.icon-parent{
+    border-style: none;
+    border: none;
+    margin-bottom: 820px;
+    transform: translateX(1000px);
+}
+
+.qicon{
+    font-size: 35px;
+    color: #fff;
+}
+
+.question{
+    background: #1e2020;
+    border: none;
+    border-style: none;
+    margin-left: 430px;
+    transform: translateY(-15px);
+}
